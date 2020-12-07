@@ -7,8 +7,7 @@ const rl = readline.createInterface({
     output : process.stdout
 });
 function countVowelConsonant(s){
-    vowel = ['a','e','i','o','u','y'];
-    
+    vowel = ['a','e','i','o','u','y']; 
     let count = 0;
     s.split("").forEach(element => {
         if(vowel.includes(element)){count++;}
