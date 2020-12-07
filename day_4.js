@@ -1,3 +1,5 @@
+//Lanch "node day_4.js" in terminal to execute it ! 
+//Made by Neal Poidras 04/12/2020
 const readline = require("readline");
 
 const rl = readline.createInterface({

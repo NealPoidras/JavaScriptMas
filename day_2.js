@@ -1,3 +1,5 @@
+//Lanch "node day_2.js" in terminal to execute it ! 
+//Made by Neal Poidras 02/12/2020
 function depositProfit(deposit,rate,threshold)
 {
     let cpt =1;
