@@ -6,14 +6,14 @@ const rl = readline.createInterface({
     input : process.stdin,
     output : process.stdout
 });
-function countVowelConsonant(s){
-    vowel = ['a','e','i','o','u','y']; 
-    let count = 0;
-    s.split("").forEach(element => {
-        if(vowel.includes(element)){count++;}
-        else{count+=2;}
-    });
-    return count;
+function countVowelConsonant(str) {
+    // write code here
+    let count = 0
+    str.split("").forEach(element=>{
+        if(['a','e','i','o','u','y'].includes(element)){count+=1}
+        else{count+=2} 
+    })
+    return count
 }
 
 rl.question("Choose your string : ",s =>{
